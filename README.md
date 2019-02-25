@@ -1,8 +1,8 @@
 # Micropython-REPLink 🐍
 
-Handy shortcuts for interacting with a Micropython REPL terminal.
+Handy shortcuts for interacting with a Micropython REPL terminal. This extension enables rapid development on embedded hardware by providing file uploading and code execution within the same REPL environment.
 
-## Features
+## Commands
 
 * Run current script on the remote device
 * Run selected text on the remote device
@@ -10,9 +10,11 @@ Handy shortcuts for interacting with a Micropython REPL terminal.
 
 ## How it works
 
-The three commands provided by this extension essentially copies the contents of the script (or selected text) into the VS Code terminal as a raw string literal with the name `vscode_contents`. That variabe is then either executed using the python `exec()` function, or written to the file system.
+The three commands provided by this extension essentially copy the contents of the script (or selected text) into the VS Code terminal as a raw string literal with the name `vscode_contents`. This variable is then either executed using the python `exec()` function, or written to the file system. 
 
-The user is responsible for initializing the REPL in the terminal.  
+The user is responsible for initializing the REPL in the terminal. 
+
+To access these commands, use the command palette (ctrl+shift+P and search for Micropython) or assign them to a keybinding.
 
 ## Requirements
 

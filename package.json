@@ -1,9 +1,10 @@
 {
 	"name": "micropython-replink",
 	"displayName": "Micropython-REPLink",
-	"description": "Sends commands to a Micropython shell",
+	"description": "Handy shortcuts for Micropython development",
 	"publisher": "swc-fablab",
 	"version": "1.0.0",
+	"icon": "icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/swc-fablab/micropython-replink"
