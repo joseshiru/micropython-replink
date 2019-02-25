@@ -3,7 +3,7 @@
 	"displayName": "Micropython-REPLink",
 	"description": "Handy shortcuts for Micropython development",
 	"publisher": "swc-fablab",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
