@@ -3,6 +3,10 @@
 	"displayName": "Micropython-REPLink",
 	"description": "Sends commands to a Micropython shell",
 	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/swc-fablab/micropython-replink"
+	},
 	"engines": {
 		"vscode": "^1.31.0"
 	},
